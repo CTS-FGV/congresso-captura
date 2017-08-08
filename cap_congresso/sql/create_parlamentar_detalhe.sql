@@ -1,0 +1,28 @@
+create table c_congresso.parlamentar_detalhe
+(
+	id_parlamentar text PRIMARY KEY,
+	codigo_estado_civil text,
+	cpf text,
+	data_captura timestamp,
+	data_falecimento date,
+	data_nascimento date,
+	descricao_participacao text,
+	email text,
+	endereco_congresso text,
+	endereco_origem text,
+	fax text,
+	fone text,
+	forma_tratamento text,
+	id_camara text,
+	id_senado bigint,
+	nome_cidade_origem text,
+	nome_completo text,
+	nome_parlamentar_atual text,
+	profissao text,
+	sexo_parlamentar text,
+	sigla_uf_origem text,
+	titulo_de_eleitor text,
+	url_captura text,
+	website text,
+	situacao_parlamentar text
+);
